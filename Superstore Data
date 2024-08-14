@@ -38,7 +38,7 @@ ORDER BY price desc;
 SELECT AVG(stock_quantity)
 FROM superstore;
 
-# Show a statistic about the price for items categorized in "Kitchen Supplies".
+#Show a statistic about the price for items categorized in "Kitchen Supplies".
 SELECT SUM(price)
 FROM superstore
 WHERE category="Kitchen Supplies";
